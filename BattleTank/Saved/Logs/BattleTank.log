@@ -1,0 +1,827 @@
+﻿Log file open, 07/22/18 12:13:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BattleTank
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.408438
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.105s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4212847
+LogInit: Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jul 14 2018 09:51:14
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.22-16.13.40:446][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.22-16.13.40:447][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.22-16.13.40:459][  0]LogHAL: Display: Platform has ~ 16 GB [17040834560 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.07.22-16.13.40:460][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.07.22-16.13.40:460][  0]LogInit: Going up to parent DeviceProfile []
+[2018.07.22-16.13.40:462][  0]LogInit: Computer: DESKTOP-USTSGKG
+[2018.07.22-16.13.40:462][  0]LogInit: User: 93628
+[2018.07.22-16.13.40:462][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.22-16.13.40:462][  0]LogInit: High frequency timer resolution =2.531246 MHz
+[2018.07.22-16.13.40:462][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.22-16.13.40:462][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.22-16.13.40:462][  0]LogMemory: Process Physical Memory: 99.32 MB used, 99.32 MB peak
+[2018.07.22-16.13.40:462][  0]LogMemory: Process Virtual Memory: 90.90 MB used, 90.90 MB peak
+[2018.07.22-16.13.40:462][  0]LogMemory: Physical Memory: 4093.29 MB used,  12158.11 MB free, 16251.41 MB total
+[2018.07.22-16.13.40:462][  0]LogMemory: Virtual Memory: 4643.90 MB used,  12158.11 MB free, 134217728.00 MB total
+[2018.07.22-16.13.40:623][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.07.22-16.13.40:623][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.07.22-16.13.41:116][  0]LogStreaming: Display: Took  0.493s to InitEngineTextLocalization.
+[2018.07.22-16.13.41:116][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.22-16.13.41:170][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.22-16.13.41:170][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.22-16.13.41:581][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.22-16.13.41:581][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.22-16.13.41:644][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2018.07.22-16.13.41:645][  0]LogD3D11RHI:       8144/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.22-16.13.41:656][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.07.22-16.13.41:656][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.22-16.13.41:658][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.22-16.13.41:658][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.22-16.13.41:658][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.22-16.13.41:681][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.22-16.13.41:681][  0]LogD3D11RHI:     GPU DeviceId: 0x13d7 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.22-16.13.41:681][  0]LogWindows: EnumDisplayDevices:
+[2018.07.22-16.13.41:681][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.07.22-16.13.41:682][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.07.22-16.13.41:682][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.07.22-16.13.41:682][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.07.22-16.13.41:683][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2018.07.22-16.13.41:683][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2018.07.22-16.13.41:683][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2018.07.22-16.13.41:683][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2018.07.22-16.13.41:683][  0]LogRHI: Texture pool is 5701 MB (70% of 8144 MB)
+[2018.07.22-16.13.41:721][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xffffffff
+[2018.07.22-16.13.41:721][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.22-16.13.41:751][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.22-16.13.41:755][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (E:/Tank/BattleTank/Intermediate/Shaders/WorkingDirectory/4416/).
+[2018.07.22-16.13.41:755][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/93628/AppData/Local/Temp/UnrealShaderWorkingDir/BEDB1357435F1DF041AB7C9C7C336EA3/'.
+[2018.07.22-16.13.42:177][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.22-16.13.42:195][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.22-16.13.42:211][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.22-16.13.42:228][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.22-16.13.42:246][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.22-16.13.42:264][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.22-16.13.42:283][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.22-16.13.42:301][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.22-16.13.42:310][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.22-16.13.42:415][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.22-16.13.42:485][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.22-16.13.42:485][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.22-16.13.42:513][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.22-16.13.42:513][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.22-16.13.42:532][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.22-16.13.42:548][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.22-16.13.42:564][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.22-16.13.42:582][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.22-16.13.42:594][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.07.22-16.13.42:594][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.22-16.13.42:735][  0]LogXGEController: Cleaning working directory: C:/Users/93628/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.22-16.13.42:736][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.22-16.13.42:736][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.22-16.13.42:736][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.22-16.13.43:722][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.22-16.13.44:017][  0]LogDerivedDataCache: Loaded boot cache 0.29s 71MB C:/Users/93628/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.07.22-16.13.44:018][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/93628/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.07.22-16.13.44:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Tank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.22-16.13.44:018][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.22-16.13.44:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Tank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.22-16.13.44:018][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.22-16.13.44:039][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.22-16.13.44:052][  0]LogDerivedDataCache: Using Local data cache path C:/Users/93628/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.22-16.13.44:052][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.22-16.13.44:052][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.22-16.13.44:077][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.22-16.13.44:083][  0]LogSlate: Using FreeType 2.6.0
+[2018.07.22-16.13.44:086][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.22-16.13.44:228][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
+[2018.07.22-16.13.44:655][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.22-16.13.44:906][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.22-16.13.44:924][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.22-16.13.44:924][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.07.22-16.13.44:925][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.22-16.13.44:925][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.22-16.13.44:959][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 486398009)
+[2018.07.22-16.13.45:697][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.041666 seconds
+[2018.07.22-16.13.45:705][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.07.22-16.13.45:705][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.07.22-16.13.45:705][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.22-16.13.47:530][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.22-16.13.47:548][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.22-16.13.47:819][  0]SourceControl: Source control is disabled
+[2018.07.22-16.13.47:820][  0]SourceControl: Source control is disabled
+[2018.07.22-16.13.47:833][  0]SourceControl: Source control is disabled
+[2018.07.22-16.13.47:839][  0]SourceControl: Source control is disabled
+[2018.07.22-16.13.48:200][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.22-16.13.48:315][  0]LogOcInput: OculusInput pre-init called
+[2018.07.22-16.13.48:432][  0]LogEngine: Initializing Engine...
+[2018.07.22-16.13.48:434][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.22-16.13.48:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.07.22-16.13.48:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.22-16.13.48:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.07.22-16.13.48:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.22-16.13.48:703][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.07.22-16.13.48:744][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.22-16.13.48:769][  0]LogInit: XAudio2 using 'BenQ PD2500Q (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.22-16.13.48:806][  0]LogInit: FAudioDevice initialized.
+[2018.07.22-16.13.48:806][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.07.22-16.13.48:882][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/93628/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.07.22-16.13.48:891][  0]LogInit: Texture streaming: Enabled
+[2018.07.22-16.13.48:920][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.22-16.13.48:942][  0]LogInit: Transaction tracking system initialized
+[2018.07.22-16.13.49:018][  0]BlueprintLog: New page: Editor Load
+[2018.07.22-16.13.49:221][  0]LocalizationService: Localization service is disabled
+[2018.07.22-16.13.49:683][  0]LogFileCache: Scanning file cache for directory 'E:/Tank/BattleTank/Content/' took 0.01s
+[2018.07.22-16.13.49:683][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.22-16.13.49:683][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.22-16.13.49:683][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.22-16.13.49:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.07.22-16.13.49:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.22-16.13.49:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.07.22-16.13.49:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.22-16.13.49:956][  0]SourceControl: Source control is disabled
+[2018.07.22-16.13.49:957][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.22-16.13.49:959][  0]LightingResults: New page: Lighting Build
+[2018.07.22-16.13.49:969][  0]MapCheck: New page: Map Check
+[2018.07.22-16.13.49:969][  0]LightingResults: New page: Lighting Build
+[2018.07.22-16.13.50:297][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.22-16.13.50:316][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.22-16.13.50:346][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.22-16.13.50:409][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.692ms to complete.
+[2018.07.22-16.13.50:409][  0]LogFileHelpers: Loading map 'Template_Default' took 0.454
+[2018.07.22-16.13.50:542][  0]LogCollectionManager: Loaded 0 collections in 0.001796 seconds
+[2018.07.22-16.13.50:598][  0]LogFileCache: Scanning file cache for directory 'E:/Tank/BattleTank/Saved/Collections/' took 0.01s
+[2018.07.22-16.13.50:598][  0]LogFileCache: Scanning file cache for directory 'E:/Tank/BattleTank/Content/Developers/93628/Collections/' took 0.01s
+[2018.07.22-16.13.50:598][  0]LogFileCache: Scanning file cache for directory 'E:/Tank/BattleTank/Content/Collections/' took 0.01s
+[2018.07.22-16.13.50:598][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.22-16.13.50:614][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2573 classes and 605 folders.
+[2018.07.22-16.13.50:628][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.22-16.13.50:770][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.22-16.13.50:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.22-16.13.50:833][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.22-16.13.50:841][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.22-16.13.50:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.22-16.13.50:869][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.07.22-16.13.50:988][  0]LogSlate: Took 0.001474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.22-16.13.50:994][  0]LogSlate: Took 0.001504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.22-16.13.50:999][  0]LogSlate: Took 0.001251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.22-16.13.51:000][  0]LogSlate: Took 0.000919 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.07.22-16.13.51:112][  0]LogRenderer: Reallocating scene render targets to support 1048x524 Format 10 NumSamples 1 (Frame:1).
+[2018.07.22-16.13.51:280][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.22-16.13.51:281][  0]LogLoad: (Engine Initialization) Total time: 15.10 seconds
+[2018.07.22-16.13.51:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.22-16.13.51:330][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.07.22-16.13.51:360][  1]LogAssetRegistry: Asset discovery search completed in 7.1541 seconds
+[2018.07.22-16.13.51:363][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.22-16.13.51:363][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000262 seconds (updated 0 objects)
+[2018.07.22-16.16.21:371][579]LogRenderer: Reallocating scene render targets to support 1260x648 Format 10 NumSamples 1 (Frame:145).
+[2018.07.22-16.16.21:447][579]LogRenderer: Reallocating scene render targets to support 1260x652 Format 10 NumSamples 1 (Frame:146).
+[2018.07.22-16.18.17:321][235]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.18.21:752][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.18.28:693][840]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.18.50:651][840]LogSlate: Window 'Save Level As' being destroyed
+[2018.07.22-16.18.50:790][840]LogSlate: Took 0.002535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.22-16.18.50:802][840]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.18.50:835][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BattleGround" FILE="E:/Tank/BattleTank/Content/Maps/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.22-16.18.50:913][840]LogSavePackage: Moving 'E:/Tank/BattleTank/Saved/BattleGround2592DD1A4B41620DE91AE285E83647C6.tmp' to 'E:/Tank/BattleTank/Content/Maps/BattleGround.umap'
+[2018.07.22-16.18.50:931][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BattleGround_BuiltData" FILE="E:/Tank/BattleTank/Content/Maps/BattleGround_BuiltData.uasset" SILENT=true
+[2018.07.22-16.18.50:945][840]LogSavePackage: Moving 'E:/Tank/BattleTank/Saved/BattleGround_BuiltDataB7F5EE6C44A2AFC4DCD82B9335F8C98F.tmp' to 'E:/Tank/BattleTank/Content/Maps/BattleGround_BuiltData.uasset'
+[2018.07.22-16.18.50:951][840]LogFileHelpers: Saving map 'BattleGround' took 0.291
+[2018.07.22-16.18.50:952][840]Cmd: MAP LOAD FILE="E:/Tank/BattleTank/Content/Maps/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.22-16.18.50:957][840]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.18.50:962][840]LightingResults: New page: Lighting Build
+[2018.07.22-16.18.50:963][840]LoadErrors: New page: Loading map: BattleGround.umap
+[2018.07.22-16.18.50:964][840]MapCheck: New page: Map Check
+[2018.07.22-16.18.50:964][840]LightingResults: New page: Lighting Build
+[2018.07.22-16.18.51:013][840]LogAIModule: Creating AISystem for world BattleGround
+[2018.07.22-16.18.51:081][840]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.22-16.18.51:126][840]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.22-16.18.51:191][840]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.849ms to complete.
+[2018.07.22-16.18.51:192][840]LogFileHelpers: Loading map 'BattleGround' took 0.241
+[2018.07.22-16.19.00:981][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.19.01:807][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.19.02:867][ 74]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.22-16.19.02:952][ 75]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleTank
+[2018.07.22-16.19.02:952][ 75]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.07.22-16.19.02:952][ 75]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.07.22-16.19.02:952][ 75]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.07.22-16.19.02:953][ 75]LogTemp: BranchPath = DESKTOP-USTSGKG/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-USTSGKG/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.07.22-16.19.02:965][ 75]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\93628\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.22-16.19.02:988][ 76]LogD3D11RHI: Error: NvAPI_D3D11_SetDepthBoundsTest(1,0.000000, 1.000000) returned error code -1. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2018.07.22-16.19.11:112][556]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.19.21:823][191]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.22-16.19.21:828][191]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.22-16.19.35:094][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.07.22-16.19.36:442][413]Cmd: DELETE
+[2018.07.22-16.19.36:443][413]Cmd: ACTOR DELETE
+[2018.07.22-16.19.36:455][413]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.22-16.19.36:489][413]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.07.22-16.20.05:334][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.20.34:358][507]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.07.22-16.20.34:394][507]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.22-16.20.34:394][507]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.07.22-16.20.34:455][507]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.22-16.20.34:456][507]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.22-16.20.34:456][507]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.07.22-16.20.34:498][507]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.22-16.20.34:498][507]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.07.22-16.20.34:548][507]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.07.22-16.20.34:607][507]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.07.22-16.20.34:626][507]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.07.22-16.20.34:647][507]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.07.22-16.20.34:671][507]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.07.22-16.20.34:703][507]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.07.22-16.20.34:725][507]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.07.22-16.20.34:751][507]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.07.22-16.20.34:776][507]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.07.22-16.20.35:860][566]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2018.07.22-16.20.35:860][566]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BattleGround.BattleGround:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.07.22-16.20.35:863][566]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2018.07.22-16.20.37:178][644]LogShaderCompilers: Display: Shaders left to compile 178
+[2018.07.22-16.20.38:636][726]LogShaderCompilers: Display: Shaders left to compile 168
+[2018.07.22-16.20.38:758][733]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.07.22-16.20.38:788][734]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.07.22-16.20.41:077][869]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.07.22-16.20.41:909][918]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.07.22-16.20.42:348][944]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.07.22-16.20.42:377][945]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.07.22-16.20.44:916][ 96]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.07.22-16.20.45:728][144]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.07.22-16.20.46:054][163]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.07.22-16.20.46:136][168]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.07.22-16.20.48:585][310]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.07.22-16.20.49:528][366]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.07.22-16.20.50:054][397]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.07.22-16.20.50:095][398]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.22-16.20.52:454][540]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.22-16.20.53:250][587]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.22-16.20.56:273][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.20.56:461][773]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.07.22-16.20.56:474][773]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.07.22-16.21.06:087][773]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.07.22-16.21.06:087][773]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.07.22-16.21.06:087][773]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.07.22-16.21.06:088][773]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.07.22-16.21.06:088][773]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.07.22-16.21.06:088][773]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.07.22-16.21.06:088][773]LogShaderCompilers: Display: Shaders left to compile 106
+[2018.07.22-16.21.06:088][773]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.07.22-16.21.06:088][773]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.07.22-16.21.06:088][773]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.07.22-16.21.06:088][773]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.07.22-16.21.06:089][773]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.07.22-16.21.06:090][773]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.07.22-16.21.06:091][773]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.07.22-16.21.06:092][773]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.07.22-16.21.06:092][773]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.07.22-16.21.06:092][773]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.07.22-16.21.06:092][773]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.07.22-16.21.06:092][773]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.07.22-16.21.06:092][773]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.07.22-16.21.06:092][773]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.07.22-16.21.06:092][773]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.07.22-16.21.06:093][773]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.07.22-16.21.06:094][773]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.07.22-16.21.06:095][773]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.07.22-16.21.06:095][773]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.07.22-16.21.06:095][773]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.07.22-16.21.06:095][773]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.07.22-16.21.06:095][773]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.07.22-16.21.06:095][773]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.07.22-16.21.06:095][773]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.07.22-16.21.06:095][773]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.07.22-16.21.06:096][773]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.07.22-16.21.06:097][773]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.22-16.21.06:098][773]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.22-16.21.06:098][773]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.22-16.21.06:098][773]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.22-16.21.06:098][773]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.22-16.21.06:098][773]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.22-16.21.06:098][773]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.22-16.21.06:098][773]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.22-16.21.06:098][773]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.22-16.21.06:099][773]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.22-16.21.06:100][773]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.22-16.21.06:100][773]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.22-16.21.06:100][773]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.22-16.21.06:100][773]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.22-16.21.11:170][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.21.42:233][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.21.52:496][336]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.07.22-16.21.52:540][336]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.21.53:794][411]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.07.22-16.21.53:817][411]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.22.11:862][ 23]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.07.22-16.22.11:883][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.22.16:383][291]Cmd: DELETE
+[2018.07.22-16.22.16:383][291]Cmd: ACTOR DELETE
+[2018.07.22-16.22.16:388][291]LogEditorActor: Deleted Actor: Landscape
+[2018.07.22-16.22.16:492][291]LogEditorActor: Deleted 1 Actors (0.109 secs)
+[2018.07.22-16.22.21:862][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.23.02:858][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.23.08:651][314]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2018.07.22-16.23.08:962][330]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2018.07.22-16.23.08:962][330]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BattleGround.BattleGround:PersistentLevel.Landscape_5.RootComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.07.22-16.23.08:963][330]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2018.07.22-16.26.12:876][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.26.57:076][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.27.20:478][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.27.20:593][919]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.07.22-16.28.02:086][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.28.16:917][662]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.07.22-16.28.16:918][662]Can't find target actor or component.
+[2018.07.22-16.28.18:006][727]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.07.22-16.28.18:006][727]Can't find target actor or component.
+[2018.07.22-16.28.25:107][153]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.07.22-16.28.25:107][153]Can't find target actor or component.
+[2018.07.22-16.28.30:642][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.28.35:495][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.28.41:931][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.29.13:405][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.29.38:676][551]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.29.41:209][703]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.29.58:674][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.30.12:365][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.30.28:469][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.30.37:270][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.30.46:588][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.31.20:963][431]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.31.43:509][767]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.22-16.31.43:533][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.31.54:686][426]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.31.59:647][722]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.32.19:233][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.33.10:554][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.33.24:219][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.33.24:286][473]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.22-16.33.24:299][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.22-16.33.24:315][473]PIE: New page: PIE session: BattleGround (Jul 22, 2018, 8:33:24 AM)
+[2018.07.22-16.33.24:315][473]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BattleGround
+[2018.07.22-16.33.24:327][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011686s)
+[2018.07.22-16.33.24:328][473]LogAIModule: Creating AISystem for world BattleGround
+[2018.07.22-16.33.24:329][473]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2018.07.22-16.33.24:329][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BattleGround.BattleGround to /Game/Maps/UEDPIE_0_BattleGround.BattleGround (0.013493s)
+[2018.07.22-16.33.24:367][473]LogInit: XAudio2 using 'BenQ PD2500Q (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.22-16.33.24:383][473]LogInit: FAudioDevice initialized.
+[2018.07.22-16.33.24:429][473]LogLoad: Game class is 'GameModeBase'
+[2018.07.22-16.33.24:435][473]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 60) at 2018.07.22-12.33.24
+[2018.07.22-16.33.24:436][473]LogWorld: Bringing up level for play took: 0.002950
+[2018.07.22-16.33.24:458][473]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.07.22-16.33.24:460][473]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BattleGround 0.484
+[2018.07.22-16.34.31:230][698]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.07.22-16.34.31:560][717]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.22-16.34.31:581][717]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.34.35:816][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.22-16.34.35:851][970]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.22-16.34.35:880][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.22-16.34.35:918][972]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.07.22-16.34.36:418][  2]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.22-16.34.36:455][  2]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.34.40:327][232]Cmd: DELETE
+[2018.07.22-16.34.40:328][232]Cmd: ACTOR DELETE
+[2018.07.22-16.34.40:333][232]LogEditorActor: Deleted Actor: Landscape
+[2018.07.22-16.34.40:419][232]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2018.07.22-16.35.06:094][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BattleGround" FILE="E:/Tank/BattleTank/Saved/Autosaves/Game/Maps/BattleGround_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.22-16.35.06:126][368]LogSavePackage: Moving 'E:/Tank/BattleTank/Saved/BattleGround_Auto155AFC6994EC52C805D5859AF28A8AD8A.tmp' to 'E:/Tank/BattleTank/Saved/Autosaves/Game/Maps/BattleGround_Auto1.umap'
+[2018.07.22-16.35.06:129][368]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BattleGround' took 0.068
+[2018.07.22-16.35.06:129][368]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.068
+[2018.07.22-16.38.14:355][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.38.16:848][258]LogTexture: Display: Building textures: Texture2D_4 (G8, 128X128)
+[2018.07.22-16.38.17:820][314]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2018.07.22-16.38.17:821][314]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/BattleGround.BattleGround:PersistentLevel.Landscape_8.RootComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.07.22-16.38.17:822][314]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Landscape)
+[2018.07.22-16.38.19:889][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.39.30:966][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.39.31:881][982]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.07.22-16.39.31:892][982]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2018.07.22-16.39.31:901][982]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2018.07.22-16.39.31:909][982]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.07.22-16.39.31:920][982]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.07.22-16.39.31:928][982]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.07.22-16.39.31:937][982]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.07.22-16.39.31:946][982]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.07.22-16.39.31:956][982]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.07.22-16.39.31:964][982]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.07.22-16.39.31:974][982]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2018.07.22-16.39.31:984][982]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.07.22-16.39.31:993][982]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.07.22-16.39.32:002][982]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.07.22-16.39.32:011][982]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2018.07.22-16.39.32:020][982]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 512X512)
+[2018.07.22-16.39.38:764][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.39.46:641][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.39.49:370][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.40.04:916][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.40.10:554][617]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.22-16.40.10:562][617]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.07.22-16.40.10:562][617]LogSynthBenchmark: Display: ===============
+[2018.07.22-16.40.10:562][617]LogSynthBenchmark: Display: Main Processor:
+[2018.07.22-16.40.10:613][617]LogSynthBenchmark: Display:          ... 0.023036 s/Run 'RayIntersect'
+[2018.07.22-16.40.10:613][617]LogSynthBenchmark: Display:          ... 0.027303 s/Run 'Fractal'
+[2018.07.22-16.40.10:613][617]LogSynthBenchmark: Display: 
+[2018.07.22-16.40.10:613][617]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2018.07.22-16.40.10:613][617]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2018.07.22-16.40.10:614][617]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2018.07.22-16.40.10:614][617]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2018.07.22-16.40.10:614][617]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2018.07.22-16.40.10:614][617]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2018.07.22-16.40.10:614][617]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2018.07.22-16.40.10:614][617]LogSynthBenchmark: Display:   CPU Perf Index 0: 111.2 (weight 1.00)
+[2018.07.22-16.40.10:614][617]LogSynthBenchmark: Display:   CPU Perf Index 1: 104.7 (weight 1.50)
+[2018.07.22-16.40.10:614][617]LogSynthBenchmark: Display:  
+[2018.07.22-16.40.10:615][617]LogSynthBenchmark: Display: Graphics:
+[2018.07.22-16.40.10:615][617]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 980M'
+[2018.07.22-16.40.10:615][617]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.07.22-16.40.10:615][617]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2018.07.22-16.40.10:615][617]LogSynthBenchmark: Display:   Device Id: 0x13D7
+[2018.07.22-16.40.10:615][617]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2018.07.22-16.40.10:615][617]LogSynthBenchmark: Display:   GPU Memory: 8145/0/8126 MB
+[2018.07.22-16.40.10:771][617]LogSynthBenchmark: Display:   GPU first test: 0.01s
+[2018.07.22-16.40.10:771][617]LogSynthBenchmark: Display:          ... 4.026 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.07.22-16.40.10:771][617]LogSynthBenchmark: Display:          ... 3.105 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be very inaccurate)
+[2018.07.22-16.40.10:771][617]LogSynthBenchmark: Display:          ... 2.509 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.07.22-16.40.10:771][617]LogSynthBenchmark: Display:          ... 6.378 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2018.07.22-16.40.10:772][617]LogSynthBenchmark: Display:          ... 0.571 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.07.22-16.40.10:772][617]LogSynthBenchmark: Display:          ... 31.527 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.07.22-16.40.10:772][617]LogSynthBenchmark: Display:          ... 31.601 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.07.22-16.40.10:906][617]LogSynthBenchmark: Display:   GPU second test: 0.03s
+[2018.07.22-16.40.10:907][617]LogSynthBenchmark: Display:          ... 6.639 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.07.22-16.40.10:907][617]LogSynthBenchmark: Display:          ... 5.811 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.07.22-16.40.10:907][617]LogSynthBenchmark: Display:          ... 4.939 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be inaccurate)
+[2018.07.22-16.40.10:908][617]LogSynthBenchmark: Display:          ... 24.694 s/GigaPix, Confidence=81% 'FillOnly' (likely to be inaccurate)
+[2018.07.22-16.40.10:908][617]LogSynthBenchmark: Display:          ... 0.735 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.07.22-16.40.10:908][617]LogSynthBenchmark: Display:          ... 3.220 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be inaccurate)
+[2018.07.22-16.40.10:908][617]LogSynthBenchmark: Display:          ... 4.234 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.07.22-16.40.11:288][617]LogSynthBenchmark: Display:   GPU third test: 0.27s
+[2018.07.22-16.40.11:288][617]LogSynthBenchmark: Display:          ... 7.762 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.07.22-16.40.11:288][617]LogSynthBenchmark: Display:          ... 6.325 s/GigaPix, Confidence=89% 'TexHeavy'
+[2018.07.22-16.40.11:288][617]LogSynthBenchmark: Display:          ... 5.830 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.07.22-16.40.11:288][617]LogSynthBenchmark: Display:          ... 34.343 s/GigaPix, Confidence=89% 'FillOnly'
+[2018.07.22-16.40.11:289][617]LogSynthBenchmark: Display:          ... 0.751 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.07.22-16.40.11:289][617]LogSynthBenchmark: Display:          ... 2.561 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.07.22-16.40.11:289][617]LogSynthBenchmark: Display:          ... 3.958 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.07.22-16.40.11:289][617]LogSynthBenchmark: Display:   GPU Final Results:
+[2018.07.22-16.40.11:289][617]LogSynthBenchmark: Display:          ... 7.762 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.07.22-16.40.11:289][617]LogSynthBenchmark: Display:          ... 6.325 s/GigaPix, Confidence=89% 'TexHeavy'
+[2018.07.22-16.40.11:289][617]LogSynthBenchmark: Display:          ... 5.830 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.07.22-16.40.11:290][617]LogSynthBenchmark: Display:          ... 34.343 s/GigaPix, Confidence=89% 'FillOnly'
+[2018.07.22-16.40.11:290][617]LogSynthBenchmark: Display:          ... 0.751 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.07.22-16.40.11:290][617]LogSynthBenchmark: Display:          ... 2.561 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.07.22-16.40.11:290][617]LogSynthBenchmark: Display:          ... 3.958 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.07.22-16.40.11:290][617]LogSynthBenchmark: Display: 
+[2018.07.22-16.40.11:290][617]LogSynthBenchmark: Display:   GPU Perf Index 0: 168.7 (weight 1.00)
+[2018.07.22-16.40.11:290][617]LogSynthBenchmark: Display:   GPU Perf Index 1: 84.9 (weight 0.10)
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display:   GPU Perf Index 2: 151.6 (weight 0.10)
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display:   GPU Perf Index 3: 134.9 (weight 3.00)
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display:   GPU Perf Index 4: 70.0 (weight 1.00)
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display:   GPU Perf Index 5: 166.6 (weight 0.00)
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display:   GPU Perf Index 6: 224.0 (weight 0.00)
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display:   GPUIndex: 128.3
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display:   CPUIndex: 107.3
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display: 
+[2018.07.22-16.40.11:291][617]LogSynthBenchmark: Display:          ... Total Time: 0.728569 sec
+[2018.07.22-16.40.11:801][648]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.22-16.40.11:801][648]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.07.22-16.40.11:801][648]LogSynthBenchmark: Display: ===============
+[2018.07.22-16.40.11:801][648]LogSynthBenchmark: Display: Main Processor:
+[2018.07.22-16.40.11:852][648]LogSynthBenchmark: Display:          ... 0.022839 s/Run 'RayIntersect'
+[2018.07.22-16.40.11:852][648]LogSynthBenchmark: Display:          ... 0.027170 s/Run 'Fractal'
+[2018.07.22-16.40.11:852][648]LogSynthBenchmark: Display: 
+[2018.07.22-16.40.11:852][648]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2018.07.22-16.40.11:852][648]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2018.07.22-16.40.11:852][648]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2018.07.22-16.40.11:852][648]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2018.07.22-16.40.11:852][648]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2018.07.22-16.40.11:853][648]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2018.07.22-16.40.11:853][648]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2018.07.22-16.40.11:853][648]LogSynthBenchmark: Display:   CPU Perf Index 0: 112.1 (weight 1.00)
+[2018.07.22-16.40.11:853][648]LogSynthBenchmark: Display:   CPU Perf Index 1: 105.3 (weight 1.50)
+[2018.07.22-16.40.11:853][648]LogSynthBenchmark: Display:  
+[2018.07.22-16.40.11:853][648]LogSynthBenchmark: Display: Graphics:
+[2018.07.22-16.40.11:853][648]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 980M'
+[2018.07.22-16.40.11:853][648]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.07.22-16.40.11:854][648]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2018.07.22-16.40.11:854][648]LogSynthBenchmark: Display:   Device Id: 0x13D7
+[2018.07.22-16.40.11:854][648]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2018.07.22-16.40.11:854][648]LogSynthBenchmark: Display:   GPU Memory: 8145/0/8126 MB
+[2018.07.22-16.40.11:966][648]LogSynthBenchmark: Display:   GPU first test: 0.00s
+[2018.07.22-16.40.11:966][648]LogSynthBenchmark: Display:          ... 3.800 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.07.22-16.40.11:966][648]LogSynthBenchmark: Display:          ... 3.183 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.07.22-16.40.11:966][648]LogSynthBenchmark: Display:          ... 2.523 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.07.22-16.40.11:967][648]LogSynthBenchmark: Display:          ... 6.693 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2018.07.22-16.40.11:967][648]LogSynthBenchmark: Display:          ... 0.572 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.07.22-16.40.11:967][648]LogSynthBenchmark: Display:          ... 31.527 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.07.22-16.40.11:967][648]LogSynthBenchmark: Display:          ... 31.646 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.07.22-16.40.12:098][648]LogSynthBenchmark: Display:   GPU second test: 0.03s
+[2018.07.22-16.40.12:098][648]LogSynthBenchmark: Display:          ... 6.673 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.07.22-16.40.12:098][648]LogSynthBenchmark: Display:          ... 5.808 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.07.22-16.40.12:098][648]LogSynthBenchmark: Display:          ... 4.946 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be inaccurate)
+[2018.07.22-16.40.12:098][648]LogSynthBenchmark: Display:          ... 25.199 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2018.07.22-16.40.12:099][648]LogSynthBenchmark: Display:          ... 0.733 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.07.22-16.40.12:099][648]LogSynthBenchmark: Display:          ... 3.248 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be inaccurate)
+[2018.07.22-16.40.12:099][648]LogSynthBenchmark: Display:          ... 4.233 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.07.22-16.40.12:474][648]LogSynthBenchmark: Display:   GPU third test: 0.27s
+[2018.07.22-16.40.12:474][648]LogSynthBenchmark: Display:          ... 7.772 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.07.22-16.40.12:474][648]LogSynthBenchmark: Display:          ... 6.321 s/GigaPix, Confidence=89% 'TexHeavy'
+[2018.07.22-16.40.12:475][648]LogSynthBenchmark: Display:          ... 5.827 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.07.22-16.40.12:475][648]LogSynthBenchmark: Display:          ... 34.403 s/GigaPix, Confidence=89% 'FillOnly'
+[2018.07.22-16.40.12:475][648]LogSynthBenchmark: Display:          ... 0.745 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.07.22-16.40.12:475][648]LogSynthBenchmark: Display:          ... 2.566 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.07.22-16.40.12:475][648]LogSynthBenchmark: Display:          ... 3.967 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.07.22-16.40.12:475][648]LogSynthBenchmark: Display:   GPU Final Results:
+[2018.07.22-16.40.12:475][648]LogSynthBenchmark: Display:          ... 7.772 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.07.22-16.40.12:476][648]LogSynthBenchmark: Display:          ... 6.321 s/GigaPix, Confidence=89% 'TexHeavy'
+[2018.07.22-16.40.12:476][648]LogSynthBenchmark: Display:          ... 5.827 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.07.22-16.40.12:476][648]LogSynthBenchmark: Display:          ... 34.403 s/GigaPix, Confidence=89% 'FillOnly'
+[2018.07.22-16.40.12:476][648]LogSynthBenchmark: Display:          ... 0.745 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.07.22-16.40.12:476][648]LogSynthBenchmark: Display:          ... 2.566 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.07.22-16.40.12:476][648]LogSynthBenchmark: Display:          ... 3.967 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.07.22-16.40.12:477][648]LogSynthBenchmark: Display: 
+[2018.07.22-16.40.12:477][648]LogSynthBenchmark: Display:   GPU Perf Index 0: 168.9 (weight 1.00)
+[2018.07.22-16.40.12:477][648]LogSynthBenchmark: Display:   GPU Perf Index 1: 84.9 (weight 0.10)
+[2018.07.22-16.40.12:477][648]LogSynthBenchmark: Display:   GPU Perf Index 2: 151.5 (weight 0.10)
+[2018.07.22-16.40.12:477][648]LogSynthBenchmark: Display:   GPU Perf Index 3: 135.1 (weight 3.00)
+[2018.07.22-16.40.12:477][648]LogSynthBenchmark: Display:   GPU Perf Index 4: 69.5 (weight 1.00)
+[2018.07.22-16.40.12:477][648]LogSynthBenchmark: Display:   GPU Perf Index 5: 166.9 (weight 0.00)
+[2018.07.22-16.40.12:477][648]LogSynthBenchmark: Display:   GPU Perf Index 6: 224.5 (weight 0.00)
+[2018.07.22-16.40.12:478][648]LogSynthBenchmark: Display:   GPUIndex: 128.4
+[2018.07.22-16.40.12:478][648]LogSynthBenchmark: Display:   CPUIndex: 108.0
+[2018.07.22-16.40.12:478][648]LogSynthBenchmark: Display: 
+[2018.07.22-16.40.12:478][648]LogSynthBenchmark: Display:          ... Total Time: 0.676753 sec
+[2018.07.22-16.41.00:652][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.41.10:060][861]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.41.16:159][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.41.29:872][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.43.05:769][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.45.06:600][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BattleGround" FILE="E:/Tank/BattleTank/Saved/Autosaves/Game/Maps/BattleGround_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.22-16.45.06:641][559]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.07.22-16.45.06:648][559]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.07.22-16.45.06:656][559]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.07.22-16.45.06:663][559]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.07.22-16.45.06:671][559]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.07.22-16.45.06:677][559]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2018.07.22-16.45.06:684][559]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.07.22-16.45.07:049][559]LogSavePackage: Moving 'E:/Tank/BattleTank/Saved/BattleGround_Auto22F431CE54901E8D3CB3A3B8B37A7A26F.tmp' to 'E:/Tank/BattleTank/Saved/Autosaves/Game/Maps/BattleGround_Auto2.umap'
+[2018.07.22-16.45.07:052][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BattleGround' took 0.485
+[2018.07.22-16.45.07:052][559]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.485
+[2018.07.22-16.46.12:540][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.46.18:316][511]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.47.08:625][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.47.18:115][498]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.47.37:281][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.48.21:609][966]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.49.04:612][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.49.06:692][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.51.18:680][760]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.51.47:208][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.51.55:245][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.53.01:787][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.22-16.53.24:394][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.55.30:544][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BattleGround" FILE="E:/Tank/BattleTank/Saved/Autosaves/Game/Maps/BattleGround_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.22-16.55.30:573][143]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.07.22-16.55.30:580][143]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2018.07.22-16.55.30:585][143]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2018.07.22-16.55.30:590][143]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.07.22-16.55.30:596][143]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.07.22-16.55.30:602][143]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.07.22-16.55.30:607][143]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.07.22-16.55.30:613][143]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.07.22-16.55.30:619][143]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.07.22-16.55.30:625][143]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.07.22-16.55.30:633][143]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2018.07.22-16.55.30:639][143]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.07.22-16.55.30:646][143]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.07.22-16.55.30:651][143]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.07.22-16.55.30:657][143]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2018.07.22-16.55.30:668][143]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 512X512)
+[2018.07.22-16.55.31:018][143]LogSavePackage: Moving 'E:/Tank/BattleTank/Saved/BattleGround_Auto368795B974291D78415E70A919DED7975.tmp' to 'E:/Tank/BattleTank/Saved/Autosaves/Game/Maps/BattleGround_Auto3.umap'
+[2018.07.22-16.55.31:020][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BattleGround' took 0.522
+[2018.07.22-16.55.31:021][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.522
+[2018.07.22-16.57.57:396][581]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.22-16.58.01:651][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BattleGround" FILE="E:/Tank/BattleTank/Content/Maps/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.22-16.58.02:386][814]LogSavePackage: Moving 'E:/Tank/BattleTank/Saved/BattleGround4750A4F748D4948BE33A3F97FB99162C.tmp' to 'E:/Tank/BattleTank/Content/Maps/BattleGround.umap'
+[2018.07.22-16.58.02:403][814]LogFileHelpers: Saving map 'BattleGround' took 0.837
